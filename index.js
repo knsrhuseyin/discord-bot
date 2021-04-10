@@ -75,4 +75,4 @@ var jeuxs = [
   }, 5000); 
  
  
-bot.login(config.token);
+bot.login(process.env.TOKEN);
